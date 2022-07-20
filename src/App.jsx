@@ -1,7 +1,10 @@
 import { useState } from 'react'
-import './App.css'
+
 import NavBar from './Components/NavBar/NavBar'
 import ItemListContainer from './Components/ItemListContainer/ItemListContainer'
+
+import './App.css';
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -9,6 +12,7 @@ function App() {
     <>
       <NavBar/>
       <ItemListContainer/>
+
     </>
    )
 }
